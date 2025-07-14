@@ -1,0 +1,18 @@
+text position
+TYPE_LIGHTER, 
+TYPE_MIRROR, 		: HandMirror
+TYPE_HANDLIGHTER, 	: HandLight
+TYPE_COMPASS, 
+TYPE_KAGURA, 
+TYPE_GLOWSTONE, 	: SmallStonePochi
+TYPE_KEY, 		: Key
+TYPE_SPHER, 		: TimeSpire
+TYPE_DYNAMITE		: Dynamite
+1. 19. 6. 1
+2. 30, 6, 1 
+3. 41
+4. 52
+5. 63
+6. 74
+7. 85
+8. 96

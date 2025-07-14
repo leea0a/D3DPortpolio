@@ -1,0 +1,701 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCubeTex.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxMesh.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxNorTex.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPosTex.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxAnimMesh.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCube.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPointInstance.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxRectInstance.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>98. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MainApp.cpp">
+      <Filter>00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Loader.cpp">
+      <Filter>01. Levels\00. Loading\00. Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Loading.cpp">
+      <Filter>01. Levels\00. Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Logo.cpp">
+      <Filter>01. Levels\01. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>01. Levels\03. GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BackGround.cpp">
+      <Filter>02. GameObjects\00. BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Camera_Free.cpp">
+      <Filter>02. GameObjects\01. Camera\00. Free</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain.cpp">
+      <Filter>02. GameObjects\99. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ImguiWindow.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CubeCollider.cpp">
+      <Filter>02. GameObjects\98. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay_Lv2.cpp">
+      <Filter>01. Levels\03. GamePlay_Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Stage1.cpp">
+      <Filter>02. GameObjects\02. Stage\01. Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Prologue.cpp">
+      <Filter>02. GameObjects\02. Stage\00. Prologue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Stage.cpp">
+      <Filter>02. GameObjects\02. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_POV.cpp">
+      <Filter>02. GameObjects\01. Camera\01. POV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI.cpp">
+      <Filter>02. GameObjects\05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Inventory.cpp">
+      <Filter>02. GameObjects\05. UI\00. Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\InnerInventory.cpp">
+      <Filter>02. GameObjects\05. UI\00. Inventory\InnerInven</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ChooseBox.cpp">
+      <Filter>02. GameObjects\05. UI\99. ChooseBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Prop.cpp">
+      <Filter>02. GameObjects\06. Props</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Lighter.cpp">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\00. Lighter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MiddlePoint.cpp">
+      <Filter>02. GameObjects\05. UI\98. MiddlePoint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Door00.cpp">
+      <Filter>02. GameObjects\06. Props\04. Door\Door00</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Manager.cpp">
+      <Filter>02. GameObjects\05. UI\100. UI_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Compass.cpp">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\03. Compass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HandLighter.cpp">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\02. HandLighter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Kagura.cpp">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\04. Kagura</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GlowStone.cpp">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\05. GlowStone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Key.cpp">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\06. Key</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Spher.cpp">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\07. Spher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dynamite.cpp">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\08. Dynamite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Cabinet.cpp">
+      <Filter>02. GameObjects\06. Props\02. Cabinet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sky.cpp">
+      <Filter>02. GameObjects\08. Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Spider.cpp">
+      <Filter>02. GameObjects\04. Monster\01. Spider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player.cpp">
+      <Filter>02. GameObjects\03. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CryingGirl.cpp">
+      <Filter>02. GameObjects\04. Monster\00. CryingGirl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Monster.cpp">
+      <Filter>02. GameObjects\04. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MenMonster.cpp">
+      <Filter>02. GameObjects\04. Monster\02. MenMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Door01.cpp">
+      <Filter>02. GameObjects\06. Props\04. Door\Door01</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Candle.cpp">
+      <Filter>02. GameObjects\06. Props\01. Candle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TeleportProp.cpp">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\09. TeleportProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\LevelProp.cpp">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\10. LevelProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RunnerGauge.cpp">
+      <Filter>02. GameObjects\05. UI\03. RunnerGauge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Compass_Use.cpp">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\03. Compass\01. Use</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Compass_Plate.cpp">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\03. Compass\00. Plate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Mirror_Use.cpp">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\01. Mirror\00. Use</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Candle_Fire.cpp">
+      <Filter>02. GameObjects\06. Props\01. Candle\00. Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HandLighter_Battery.cpp">
+      <Filter>02. GameObjects\05. UI\01. Battery</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HandLighter_Batter_Count.cpp">
+      <Filter>02. GameObjects\05. UI\01. Battery\00. Battery_Count</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Magatama.cpp">
+      <Filter>02. GameObjects\05. UI\04. Magatama</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\LightStone.cpp">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\05. GlowStone\00. LightStone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dynamite_Use.cpp">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\08. Dynamite\00. Dynamite_Use</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Mirror.cpp">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\01. Mirror</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect.cpp">
+      <Filter>02. GameObjects\09. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MagatamaProp.cpp">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\11. Magatama</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\EndProp.cpp">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\12. EndProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CenterWord.cpp">
+      <Filter>02. GameObjects\05. UI\05. CenterWord</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Particle_Spark.cpp">
+      <Filter>02. GameObjects\10. Particle\01. Spark</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Particle_SparkLv2.cpp">
+      <Filter>02. GameObjects\10. Particle\01. Spark</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Prologue.cpp">
+      <Filter>01. Levels\02. Prologue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\StopProp.cpp">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\13. StopProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dead.cpp">
+      <Filter>02. GameObjects\05. UI\06. Dead</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>99. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MainApp.h">
+      <Filter>00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Loader.h">
+      <Filter>01. Levels\00. Loading\00. Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Loading.h">
+      <Filter>01. Levels\00. Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Logo.h">
+      <Filter>01. Levels\01. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>01. Levels\03. GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay_Lv2.h">
+      <Filter>01. Levels\03. GamePlay_Lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BackGround.h">
+      <Filter>02. GameObjects\00. BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Camera_Free.h">
+      <Filter>02. GameObjects\01. Camera\00. Free</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain.h">
+      <Filter>02. GameObjects\99. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImguiWindow.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CubeCollider.h">
+      <Filter>02. GameObjects\98. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Stage1.h">
+      <Filter>02. GameObjects\02. Stage\01. Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Prologue.h">
+      <Filter>02. GameObjects\02. Stage\00. Prologue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Stage.h">
+      <Filter>02. GameObjects\02. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_POV.h">
+      <Filter>02. GameObjects\01. Camera\01. POV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI.h">
+      <Filter>02. GameObjects\05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Inventory.h">
+      <Filter>02. GameObjects\05. UI\00. Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\InnerInventory.h">
+      <Filter>02. GameObjects\05. UI\00. Inventory\InnerInven</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ChooseBox.h">
+      <Filter>02. GameObjects\05. UI\99. ChooseBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Prop.h">
+      <Filter>02. GameObjects\06. Props</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Lighter.h">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\00. Lighter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MiddlePoint.h">
+      <Filter>02. GameObjects\05. UI\98. MiddlePoint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Door00.h">
+      <Filter>02. GameObjects\06. Props\04. Door\Door00</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Manager.h">
+      <Filter>02. GameObjects\05. UI\100. UI_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Mirror.h">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\01. Mirror</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HandLighter.h">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\02. HandLighter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Compass.h">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\03. Compass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Kagura.h">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\04. Kagura</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GlowStone.h">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\05. GlowStone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Key.h">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\06. Key</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Spher.h">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\07. Spher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dynamite.h">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\08. Dynamite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Cabinet.h">
+      <Filter>02. GameObjects\06. Props\02. Cabinet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sky.h">
+      <Filter>02. GameObjects\08. Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Spider.h">
+      <Filter>02. GameObjects\04. Monster\01. Spider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player.h">
+      <Filter>02. GameObjects\03. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CryingGirl.h">
+      <Filter>02. GameObjects\04. Monster\00. CryingGirl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Monster.h">
+      <Filter>02. GameObjects\04. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MenMonster.h">
+      <Filter>02. GameObjects\04. Monster\02. MenMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Door01.h">
+      <Filter>02. GameObjects\06. Props\04. Door\Door01</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Candle.h">
+      <Filter>02. GameObjects\06. Props\01. Candle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TeleportProp.h">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\09. TeleportProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\LevelProp.h">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\10. LevelProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RunngerGauge.h">
+      <Filter>02. GameObjects\05. UI\03. RunnerGauge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Compass_Use.h">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\03. Compass\01. Use</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Compass_Plate.h">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\03. Compass\00. Plate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Mirror_Use.h">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\01. Mirror\00. Use</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Candle_Fire.h">
+      <Filter>02. GameObjects\06. Props\01. Candle\00. Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HandLighter_Battery.h">
+      <Filter>02. GameObjects\05. UI\01. Battery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HandLighter_Battery_Count.h">
+      <Filter>02. GameObjects\05. UI\01. Battery\00. Battery_Count</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Magatama.h">
+      <Filter>02. GameObjects\05. UI\04. Magatama</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\LightStone.h">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\05. GlowStone\00. LightStone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dynamite_Use.h">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\08. Dynamite\00. Dynamite_Use</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect.h">
+      <Filter>02. GameObjects\09. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MagatamaProp.h">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\11. Magatama</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\EndProp.h">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\12. EndProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CenterWord.h">
+      <Filter>02. GameObjects\05. UI\05. CenterWord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Particle_Spark.h">
+      <Filter>02. GameObjects\10. Particle\01. Spark</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Particle_SparkLv2.h">
+      <Filter>02. GameObjects\10. Particle\01. Spark</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Prologue.h">
+      <Filter>01. Levels\02. Prologue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\StopProp.h">
+      <Filter>02. GameObjects\06. Props\00. TakingProp\13. StopProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dead.h">
+      <Filter>02. GameObjects\05. UI\06. Dead</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>98. Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>98. Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="00. MainApp">
+      <UniqueIdentifier>{cd5175d3-ca37-46d2-b303-d8d420e1c1dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels">
+      <UniqueIdentifier>{254fb094-c987-438c-818e-d31eccbe68fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects">
+      <UniqueIdentifier>{6d3a5616-9caa-4461-a3d7-b40441c3de0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. ShaderFiles">
+      <UniqueIdentifier>{d8edd172-1991-48fe-9178-0f791714a531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Default">
+      <UniqueIdentifier>{0bde0449-fe23-4038-b23f-017a2214b6c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Defines">
+      <UniqueIdentifier>{047a4cf0-4b49-411f-a336-4d6acc089f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\00. Loading">
+      <UniqueIdentifier>{f673acf4-b325-462a-9e7c-9a671a59c5df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\01. Logo">
+      <UniqueIdentifier>{2234665b-7b6c-4f82-97fb-dc20baa56f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\03. GamePlay_Lv2">
+      <UniqueIdentifier>{b3f87be8-6606-4f34-a257-033b85ea64a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\00. Loading\00. Loader">
+      <UniqueIdentifier>{5895dee8-7d3c-45da-9ed3-219d7803eb6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\00. BackGround">
+      <UniqueIdentifier>{70c1f325-250c-4a91-a3ee-ad446d597cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\01. Camera">
+      <UniqueIdentifier>{76464a7c-33c0-43c1-87b9-1616855d2a34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\02. Stage">
+      <UniqueIdentifier>{568c5f04-5eb0-4c6e-aaa0-e4564b124b5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\03. Player">
+      <UniqueIdentifier>{2b042f28-770c-41ae-8bfa-357085748f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\04. Monster">
+      <UniqueIdentifier>{37841dbe-0a8d-45bb-920c-3f628770974d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\01. Camera\00. Free">
+      <UniqueIdentifier>{14f92026-ad4e-4ccc-bd45-893eda0e69c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\04. Monster\00. CryingGirl">
+      <UniqueIdentifier>{e398fa73-fc92-4f7a-9293-3d9a990b68d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\04. Monster\01. Spider">
+      <UniqueIdentifier>{3cbef71e-2ff7-4758-b052-85e3498e2b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\04. Monster\02. MenMonster">
+      <UniqueIdentifier>{02abe1ff-60ea-47b4-9d71-3e503a83403b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\99. Terrain">
+      <UniqueIdentifier>{22c86e4a-757b-4c7c-8ea0-c8f1e64c0f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMGUI">
+      <UniqueIdentifier>{7148222b-437f-40c5-b0eb-1de0a15f52ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\98. Collider">
+      <UniqueIdentifier>{31ffc068-4348-4cdc-b2f0-12d5ef4fdd91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI">
+      <UniqueIdentifier>{e8277f8d-460a-40ea-8e26-64ad6f641037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\01. Camera\01. POV">
+      <UniqueIdentifier>{a3a506e9-3e6d-4683-bcc7-8e0277aff680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\02. Stage\00. Prologue">
+      <UniqueIdentifier>{5ec6931c-616d-40fb-9f37-5fc3534c079f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\00. Inventory">
+      <UniqueIdentifier>{1999340d-b83e-4314-978c-b73c77e4604d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\02. HPBar">
+      <UniqueIdentifier>{3c030530-1aba-4a9a-bde2-d7b78621c5bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\03. RunnerGauge">
+      <UniqueIdentifier>{deef838c-56aa-4027-8ac5-55828071967c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\00. Inventory\InnerInven">
+      <UniqueIdentifier>{76a970f4-38e2-4a0e-8cf5-77e6d779127c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\00. Inventory\00. Item">
+      <UniqueIdentifier>{dcefd6b4-309f-47ff-9668-f81139d33163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\00. Inventory\00. Item\00. Lighter">
+      <UniqueIdentifier>{6ed85578-e0aa-457b-9330-7ab460da3575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\00. Inventory\00. Item\02. Mirror">
+      <UniqueIdentifier>{46d067d8-07b4-490e-8bed-47c87d259742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\00. Inventory\00. Item\03. HandLighter">
+      <UniqueIdentifier>{841449ce-5246-4dba-aa73-bc1b59c9cc43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\00. Inventory\00. Item\04. Compass">
+      <UniqueIdentifier>{2e0030e1-68e7-41fe-935d-c203b201098d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\00. Inventory\00. Item\05. Kagura">
+      <UniqueIdentifier>{fe662b20-0069-414e-adfb-897e595f4d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\00. Inventory\00. Item\06. GlowStone">
+      <UniqueIdentifier>{dc8e8730-5b59-47b8-8b2e-555cd6d43f17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\00. Inventory\00. Item\07. Key">
+      <UniqueIdentifier>{6d257e3b-7bc2-4a3c-886a-6a6d9ce82db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\00. Inventory\00. Item\08. Spher">
+      <UniqueIdentifier>{c65d1ec7-b760-453b-b7b2-93e9ea47212f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\00. Inventory\00. Item\09. Dynamite">
+      <UniqueIdentifier>{d054cb46-e445-4a19-8da4-6601a65884b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\99. ChooseBox">
+      <UniqueIdentifier>{2990b9b0-d059-4501-b2a3-c63a146db390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props">
+      <UniqueIdentifier>{437bc4a2-f2dd-45e2-9905-54c2303a8912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\01. Candle">
+      <UniqueIdentifier>{58fb60d5-905c-496d-97f7-188ac8799f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\02. Cabinet">
+      <UniqueIdentifier>{8f8373be-ffeb-4bef-b955-9f856299dbbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\03. BigBox">
+      <UniqueIdentifier>{47f9ae46-315c-4604-99dc-09354ffbf9ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\98. MiddlePoint">
+      <UniqueIdentifier>{86673a58-b2d8-4aca-9c2d-08af1145f538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\04. Door">
+      <UniqueIdentifier>{26e7564a-f130-4f78-8bf4-a6b326c19108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\04. Door\Door00">
+      <UniqueIdentifier>{3b743e53-3a88-41d2-9ecb-4e16cbed3a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\04. Door\Door01">
+      <UniqueIdentifier>{f49e7388-4f0b-49bd-9491-869fac25d2b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\04. Door\Door02">
+      <UniqueIdentifier>{fc2062ef-0b30-43d0-8553-09a86351c01f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\100. UI_Manager">
+      <UniqueIdentifier>{ffffb416-69bc-41f8-93e6-49db0b41e2a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\00. TakingProp">
+      <UniqueIdentifier>{d0a2db75-1bf9-4a9f-90c0-d412417e2020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\00. TakingProp\00. Lighter">
+      <UniqueIdentifier>{cedb37b7-328b-48ca-a4a6-bf5b0b67f484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\00. TakingProp\01. Mirror">
+      <UniqueIdentifier>{7fd8cbbd-dd51-4f0d-a07f-ea98d38a900f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\00. TakingProp\02. HandLighter">
+      <UniqueIdentifier>{6ccc194d-d639-4e05-aa8a-83fcbeab7162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\00. TakingProp\03. Compass">
+      <UniqueIdentifier>{d91ecc39-c1cb-43a1-ac37-a5ced574ba12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\00. TakingProp\04. Kagura">
+      <UniqueIdentifier>{d41afe1d-35d8-456b-b500-e1f32a213850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\00. TakingProp\05. GlowStone">
+      <UniqueIdentifier>{6c33dd6e-86d0-4686-8fd7-f6e770cb6f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\00. TakingProp\06. Key">
+      <UniqueIdentifier>{f01587f1-8ffc-4b4c-a63a-aef94a28bb91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\00. TakingProp\07. Spher">
+      <UniqueIdentifier>{6b2482b8-f39d-4c16-b5aa-ef5759c87bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\00. TakingProp\08. Dynamite">
+      <UniqueIdentifier>{39081823-a10c-421c-b335-8bc120a8113f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\07. Particle">
+      <UniqueIdentifier>{a34a96f8-35b8-432c-a798-a5aa69210392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\08. Sky">
+      <UniqueIdentifier>{f6e5fb75-4fcb-4252-ba3a-f05620d4fbea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\02. Stage\01. Stage1">
+      <UniqueIdentifier>{8332a9ee-77ba-47c8-9564-0e8edd975f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\00. TakingProp\09. TeleportProp">
+      <UniqueIdentifier>{621f89c5-af0e-4477-ade9-10beb9ebfbaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\00. TakingProp\10. LevelProp">
+      <UniqueIdentifier>{0482e970-80d8-472d-8b47-8567d62df577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\00. TakingProp\03. Compass\00. Plate">
+      <UniqueIdentifier>{7710d06c-47a2-4bcb-bb41-4672140e9fb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\00. TakingProp\03. Compass\01. Use">
+      <UniqueIdentifier>{1683b6df-b33b-4517-871d-a8e6a7d2fdcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\00. TakingProp\01. Mirror\00. Use">
+      <UniqueIdentifier>{6f93ae05-7020-44a1-96da-b52d60ba3e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\01. Candle\00. Fire">
+      <UniqueIdentifier>{7dad2589-8174-4059-ada1-61b01fdd382b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\00. TakingProp\05. GlowStone\00. LightStone">
+      <UniqueIdentifier>{4dc7f705-2f69-4184-af88-442dba6d85f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\00. TakingProp\08. Dynamite\00. Dynamite_Use">
+      <UniqueIdentifier>{08fce15f-f429-42ae-b021-7e5f7fd0698c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\09. Effect">
+      <UniqueIdentifier>{0b9de408-527b-4185-9c72-adb24b9e9968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\10. Particle">
+      <UniqueIdentifier>{242cf12d-7914-4f93-9cfa-9d46e6ede935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\01. Battery">
+      <UniqueIdentifier>{b28b2ce5-40e1-49dc-b49d-176f70686a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\01. Battery\00. Battery_Count">
+      <UniqueIdentifier>{d15925f8-e666-4b22-bc90-e808c91a8ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\04. Magatama">
+      <UniqueIdentifier>{7e3933d9-1073-4f41-ac2d-b2968af9a439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\00. TakingProp\11. Magatama">
+      <UniqueIdentifier>{830f10e6-b628-42eb-856a-f08622effd5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\00. TakingProp\12. EndProp">
+      <UniqueIdentifier>{4b8b12ad-49f3-4232-8ce8-9649296ed343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\05. CenterWord">
+      <UniqueIdentifier>{dc4932b4-f25b-4e66-873c-8f1b9ab9f2f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\10. Particle\00. Smoke">
+      <UniqueIdentifier>{83e5b9a8-3931-4919-bc46-d03e2180b24b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\10. Particle\01. Spark">
+      <UniqueIdentifier>{a4c252a7-f871-49b0-8a9c-09d2a4bca1b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\03. GamePlay">
+      <UniqueIdentifier>{45902027-4d9d-4f6e-85aa-32ddf4c1a30c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\02. Prologue">
+      <UniqueIdentifier>{208a6fc5-e370-427c-ae6b-7b48df0d2c00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\06. Props\00. TakingProp\13. StopProp">
+      <UniqueIdentifier>{f4321027-05f2-41f9-8233-62af4266c383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObjects\05. UI\06. Dead">
+      <UniqueIdentifier>{574c93e3-c8cf-4f6b-ba24-b2680b26b6ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>98. Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

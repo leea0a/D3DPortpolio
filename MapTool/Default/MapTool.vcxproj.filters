@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{8a04cd48-d0a3-40b9-bb6b-1beb6dae084f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Default">
+      <UniqueIdentifier>{83624520-0af8-4f63-928f-098474f7205e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Defines">
+      <UniqueIdentifier>{c565c25b-6d60-44f6-ba0c-04d5b02f55ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels">
+      <UniqueIdentifier>{524b3d92-f939-4011-9f1f-b84e0a4295d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\00.Loading">
+      <UniqueIdentifier>{9c9e3581-7b11-486a-b8ed-f1bf2c8203e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\01.Logo">
+      <UniqueIdentifier>{46c6a7a5-85f9-435f-a798-e2f7338a9ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\02.GamePlay">
+      <UniqueIdentifier>{2c493118-6b95-4b96-9bec-06bb0c78b659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\00.Loading\Loader">
+      <UniqueIdentifier>{a724fb95-d038-4e5d-bfbe-756409406213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects">
+      <UniqueIdentifier>{08173490-4f8c-4caf-9689-e4649fd9fdda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\BackGround">
+      <UniqueIdentifier>{826be8e2-eb2d-4dae-94e0-00f6b8aeffd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.ShaderFiles">
+      <UniqueIdentifier>{f52d961a-a8ab-4793-977f-7b9901752462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\00.Camera">
+      <UniqueIdentifier>{1bb08262-f197-4e25-9eee-6cd213c5dba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\00.Camera\Free">
+      <UniqueIdentifier>{9b044f7a-23e9-44b2-8a8a-009442ba1ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain">
+      <UniqueIdentifier>{e6a4b0c2-ccf7-402c-b8d4-f9df611c51e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.Collider">
+      <UniqueIdentifier>{33875c16-fd51-43f5-a09b-3d0a37e4a0eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMGUI">
+      <UniqueIdentifier>{2f5aeb5f-f655-41cc-861f-08218b943aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\00.TerrainSwamp">
+      <UniqueIdentifier>{af6185c9-1447-4bbb-81a4-cc1352485d20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\100.Height_Terrain">
+      <UniqueIdentifier>{3f34e3d7-ac1f-49e9-a53e-a0b9bb1a0292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\10.Virtual_Flat_Terrain">
+      <UniqueIdentifier>{91169913-aa25-4b03-bf35-eb508d47ed9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\04.GameObjects">
+      <UniqueIdentifier>{75d607aa-f301-49d8-8ee1-3bc095fcedb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\00.TerrainSwamp\00.Terrain_Base">
+      <UniqueIdentifier>{24956e03-d983-4ce1-8088-6bf5cd7ace11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\00.TerrainSwamp\01.Prologue">
+      <UniqueIdentifier>{4e9bdbb3-558e-4e61-ba86-2973a35e7473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain\00.TerrainSwamp\02. Stage1">
+      <UniqueIdentifier>{4fb65ada-cda3-4e13-b823-b7c728b8bf86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03. Props">
+      <UniqueIdentifier>{2336d90a-b963-44ff-a656-0d4a6e1016d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03. Props\00. TakingProp">
+      <UniqueIdentifier>{c331ed07-6b6e-46a5-8af0-f7e338bb92ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03. Props\01. Candle">
+      <UniqueIdentifier>{e7973e51-9b72-4e32-b846-dfe9ea5b427d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03. Props\02. Cabinet">
+      <UniqueIdentifier>{60e9e925-a006-453f-861e-4519d7111d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03. Props\03. Door">
+      <UniqueIdentifier>{1af8aee9-6438-4d50-8168-755746d4193b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03. Props\00. TakingProp\00. Lighter">
+      <UniqueIdentifier>{593a447d-4af0-4a45-b583-c6cdcae0c248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03. Props\00. TakingProp\01. Mirror">
+      <UniqueIdentifier>{474aa4d4-6668-4bdf-ab9d-74cfb520bc90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03. Props\00. TakingProp\02. HandLighter">
+      <UniqueIdentifier>{9803a84d-fc21-4f30-a8bf-3ffa0b0ce0ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03. Props\00. TakingProp\03. Kagura">
+      <UniqueIdentifier>{2568dafb-4797-4489-bb3d-9c0ce735ace3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03. Props\00. TakingProp\04. GlowStone">
+      <UniqueIdentifier>{6ac502b1-c78b-45df-bae9-bdcd52fa5a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03. Props\00. TakingProp\05. Key">
+      <UniqueIdentifier>{28d1483e-e28f-4ee7-a89d-387277675ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03. Props\00. TakingProp\06. Spher">
+      <UniqueIdentifier>{03f8573f-79be-49fc-bbd7-9ed93215050d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03. Props\00. TakingProp\07. Dynamite">
+      <UniqueIdentifier>{b36a4115-7ed9-41de-a694-1020c2952b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03. Props\00. TakingProp\08. TeleportProp">
+      <UniqueIdentifier>{04169eb0-1fb4-43dc-baec-677c695adcdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03. Props\00. TakingProp\09. LevelProp">
+      <UniqueIdentifier>{4cd5b958-1bb3-4630-afbb-5c05b2688176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03. Props\03. Door\00. Door00">
+      <UniqueIdentifier>{976e8b03-bdaf-4ead-983c-5d547694663e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03. Props\03. Door\01. Door01">
+      <UniqueIdentifier>{e91f7827-49b6-4dfc-a1e3-6df9a3e298c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03. Props\03. Door\02. Door02">
+      <UniqueIdentifier>{f6c15e1f-4dcc-431f-b2ae-d3ecad440aa5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Loading.h">
+      <Filter>01.Levels\00.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Logo.h">
+      <Filter>01.Levels\01.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>01.Levels\02.GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Loader.h">
+      <Filter>01.Levels\00.Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BackGround.h">
+      <Filter>02.GameObjects\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Camera_Free.h">
+      <Filter>02.GameObjects\00.Camera\Free</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CubeCollider.h">
+      <Filter>02.GameObjects\02.Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImguiWindow.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain_Base.h">
+      <Filter>02.GameObjects\01.Terrain\00.TerrainSwamp\00.Terrain_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Flat_Virtual_Terrain.h">
+      <Filter>02.GameObjects\01.Terrain\10.Virtual_Flat_Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain.h">
+      <Filter>02.GameObjects\01.Terrain\100.Height_Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SettingObject.h">
+      <Filter>02.GameObjects\04.GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Prologue.h">
+      <Filter>02.GameObjects\01.Terrain\00.TerrainSwamp\01.Prologue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Stage.h">
+      <Filter>02.GameObjects\01.Terrain\00.TerrainSwamp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Stage1.h">
+      <Filter>02.GameObjects\01.Terrain\00.TerrainSwamp\02. Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Prop.h">
+      <Filter>02.GameObjects\03. Props</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Cabinet.h">
+      <Filter>02.GameObjects\03. Props\02. Cabinet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Candle.h">
+      <Filter>02.GameObjects\03. Props\01. Candle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Door00.h">
+      <Filter>02.GameObjects\03. Props\03. Door\00. Door00</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Door01.h">
+      <Filter>02.GameObjects\03. Props\03. Door\01. Door01</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dynamite.h">
+      <Filter>02.GameObjects\03. Props\00. TakingProp\07. Dynamite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GlowStone.h">
+      <Filter>02.GameObjects\03. Props\00. TakingProp\04. GlowStone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HandLighter.h">
+      <Filter>02.GameObjects\03. Props\00. TakingProp\02. HandLighter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Kagura.h">
+      <Filter>02.GameObjects\03. Props\00. TakingProp\03. Kagura</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Key.h">
+      <Filter>02.GameObjects\03. Props\00. TakingProp\05. Key</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\LevelProp.h">
+      <Filter>02.GameObjects\03. Props\00. TakingProp\09. LevelProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Lighter.h">
+      <Filter>02.GameObjects\03. Props\00. TakingProp\00. Lighter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Mirror.h">
+      <Filter>02.GameObjects\03. Props\00. TakingProp\01. Mirror</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Spher.h">
+      <Filter>02.GameObjects\03. Props\00. TakingProp\06. Spher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TeleportProp.h">
+      <Filter>02.GameObjects\03. Props\00. TakingProp\08. TeleportProp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Loading.cpp">
+      <Filter>01.Levels\00.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Logo.cpp">
+      <Filter>01.Levels\01.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>01.Levels\02.GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Loader.cpp">
+      <Filter>01.Levels\00.Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BackGround.cpp">
+      <Filter>02.GameObjects\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Camera_Free.cpp">
+      <Filter>02.GameObjects\00.Camera\Free</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CubeCollider.cpp">
+      <Filter>02.GameObjects\02.Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ImguiWindow.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain_Base.cpp">
+      <Filter>02.GameObjects\01.Terrain\00.TerrainSwamp\00.Terrain_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Flat_Virtual_Terrain.cpp">
+      <Filter>02.GameObjects\01.Terrain\10.Virtual_Flat_Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain.cpp">
+      <Filter>02.GameObjects\01.Terrain\100.Height_Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SettingObject.cpp">
+      <Filter>02.GameObjects\04.GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Prologue.cpp">
+      <Filter>02.GameObjects\01.Terrain\00.TerrainSwamp\01.Prologue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Stage.cpp">
+      <Filter>02.GameObjects\01.Terrain\00.TerrainSwamp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Stage1.cpp">
+      <Filter>02.GameObjects\01.Terrain\00.TerrainSwamp\02. Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Cabinet.cpp">
+      <Filter>02.GameObjects\03. Props\02. Cabinet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Candle.cpp">
+      <Filter>02.GameObjects\03. Props\01. Candle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Door00.cpp">
+      <Filter>02.GameObjects\03. Props\03. Door\00. Door00</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Door01.cpp">
+      <Filter>02.GameObjects\03. Props\03. Door\01. Door01</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dynamite.cpp">
+      <Filter>02.GameObjects\03. Props\00. TakingProp\07. Dynamite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GlowStone.cpp">
+      <Filter>02.GameObjects\03. Props\00. TakingProp\04. GlowStone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HandLighter.cpp">
+      <Filter>02.GameObjects\03. Props\00. TakingProp\02. HandLighter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Kagura.cpp">
+      <Filter>02.GameObjects\03. Props\00. TakingProp\03. Kagura</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Key.cpp">
+      <Filter>02.GameObjects\03. Props\00. TakingProp\05. Key</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\LevelProp.cpp">
+      <Filter>02.GameObjects\03. Props\00. TakingProp\09. LevelProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Lighter.cpp">
+      <Filter>02.GameObjects\03. Props\00. TakingProp\00. Lighter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Mirror.cpp">
+      <Filter>02.GameObjects\03. Props\00. TakingProp\01. Mirror</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Spher.cpp">
+      <Filter>02.GameObjects\03. Props\00. TakingProp\06. Spher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TeleportProp.cpp">
+      <Filter>02.GameObjects\03. Props\00. TakingProp\08. TeleportProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Prop.cpp">
+      <Filter>02.GameObjects\03. Props</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>98.Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxAnimMesh.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCubeCol.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCubeTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxMesh.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxNorTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPosTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
